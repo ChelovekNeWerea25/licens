@@ -17,7 +17,7 @@ function checkURLInList(currentURL, listURL) {
 }
 
 // Получите текущий URL-адрес
-const currentURL = window.location.href;
+const currentURL = window.location.hostname;
 
 window.onload = function() {
   const listURL = 'https://raw.githubusercontent.com/ChelovekNeWerea25/licens/main/lic.txt'; // Замените 'example.com/list.txt' на URL вашего списка
